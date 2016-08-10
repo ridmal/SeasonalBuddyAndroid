@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/popup_tools"
+    android:theme="@style/AppTheme.CustomTheme">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:id ="@+id/fabCamera"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Round Button"
+            android:background="@drawable/button_round"
+            android:padding="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="160dp"
+            android:src="@drawable/camera"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/fabPic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Round Button"
+            android:background="@drawable/button_round"
+            android:padding="10dp"
+            android:layout_below="@+id/fabCamera"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/photos"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/fabColor"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Round Button"
+            android:background="@drawable/button_round"
+            android:padding="10dp"
+            android:layout_below="@+id/fabPic"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/colorpalette"
+            android:visibility="invisible" />
+        </RelativeLayout>
+</RelativeLayout>

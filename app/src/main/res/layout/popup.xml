@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    android:background="@drawable/glass"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name"
+        android:id="@+id/textView17"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtimageName"
+        android:layout_margin="10dp"
+        android:hint="Enter Receiver Name Here "
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Message"
+        android:id="@+id/textView18"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/etMessage"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Email Address"
+        android:id="@+id/textView19"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/etEmail"
+        android:layout_margin="10dp"
+        android:hint="Reciever Email Address"
+        android:textColor="#ffffff" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Send"
+        android:id="@+id/sendEmailBtn"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_round"
+        android:src="@drawable/ic_menu_send"
+        android:layout_margin="10dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Cancle"
+        android:id="@+id/cancleEmailBtn"
+        android:layout_margin="10dp"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:background="@drawable/button_round"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

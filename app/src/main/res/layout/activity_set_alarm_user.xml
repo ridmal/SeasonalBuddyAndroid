@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.roshan.seasonalbuddy6.Reminder.SetAlarmUser"
+    android:background="@color/colorPrimary">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp">
+
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/settimebtn"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_round"
+            android:src="@drawable/calendar64" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Set Date &amp; Time"
+            android:id="@+id/textView12"
+            android:layout_below="@+id/settimebtn"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/msgdetailsbtn"
+            android:src="@drawable/letter"
+            android:background="@drawable/button_round"
+            android:layout_below="@+id/textView12"
+            android:layout_toLeftOf="@+id/textView12"
+            android:layout_toStartOf="@+id/textView12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Message &amp; Details"
+            android:id="@+id/textView13"
+            android:layout_below="@+id/msgdetailsbtn"
+            android:layout_toLeftOf="@+id/textView21"
+            android:layout_toStartOf="@+id/textView21" />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/Setalarm"
+            android:layout_below="@+id/textView13"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_round"
+            android:src="@drawable/alarm64" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Set Alarm"
+            android:id="@+id/textView21"
+            android:layout_below="@+id/Setalarm"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/imgbtnremail"
+            android:src="@drawable/reminder_email"
+            android:background="@drawable/button_round"
+            android:layout_above="@+id/textView13"
+            android:layout_toRightOf="@+id/textView12"
+            android:layout_toEndOf="@+id/textView12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Email Details"
+            android:id="@+id/textView15"
+            android:layout_below="@+id/imgbtnremail"
+            android:layout_alignLeft="@+id/imgbtnremail"
+            android:layout_alignStart="@+id/imgbtnremail" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:src="@drawable/neverforgot"
+        android:id="@+id/imageView"
+
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/neverfogot2"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+</RelativeLayout>

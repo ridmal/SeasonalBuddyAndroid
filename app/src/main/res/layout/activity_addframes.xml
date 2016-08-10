@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/tileview"
+        android:layout_width="fill_parent"
+        android:layout_height="380dp"
+        android:padding="5dp">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/picImgView"
+            android:scaleType="fitXY"/>
+        <!--
+            <RelativeLayout
+                android:id="@+id/tileview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:color/transparent" >
+                -->
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/frameImgView"
+            android:scaleType="fitXY"/>
+
+    </RelativeLayout>
+
+    <!--Image button layout-->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp">
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/framebtn1"
+                    android:src="@drawable/f1"
+                    android:scaleType="fitXY"/>
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/framebtn2"
+                    android:src="@drawable/f2"
+                    android:scaleType="fitXY"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/framebtn3"
+                    android:src="@drawable/f3"
+                    android:scaleType="fitXY"/>
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/framebtn4"
+                    android:src="@drawable/f4"
+                    android:scaleType="fitXY"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/framebtn5"
+                    android:src="@drawable/f5"
+                    android:scaleType="fitXY"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/framebtn6"
+                    android:src="@drawable/f6"
+                    android:scaleType="fitXY"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/framebtn7"
+                    android:src="@drawable/f7"
+                    android:scaleType="fitXY"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/framebtn8"
+                    android:src="@drawable/f8"
+                    android:scaleType="fitXY"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/framebtn9"
+                    android:src="@drawable/f9"
+                    android:scaleType="fitXY"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/framebtn10"
+                    android:src="@drawable/f10"
+                    android:scaleType="fitXY"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/framebtn11"
+                    android:src="@drawable/f11"
+                    android:scaleType="fitXY"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/framebtn12"
+                    android:src="@drawable/f12"
+                    android:scaleType="fitXY"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/framebtn13"
+                    android:src="@drawable/f13"
+                    android:scaleType="fitXY"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/framebtn14"
+                    android:src="@drawable/f14"
+                    android:scaleType="fitXY"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/framebtn15"
+                    android:src="@drawable/f9"
+                    android:scaleType="fitXY"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/send_done"
+            android:text="Done"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_round"
+            android:src="@drawable/checked"
+            android:layout_margin="5dp" />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/circle_done"
+            android:text="Circle"
+            android:layout_gravity="bottom"
+            android:background="@drawable/button_round"
+            android:layout_margin="5dp"
+            android:src="@drawable/oval" />
+    </LinearLayout>
+</LinearLayout>
