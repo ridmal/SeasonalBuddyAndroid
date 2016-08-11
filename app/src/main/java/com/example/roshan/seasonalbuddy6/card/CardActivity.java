@@ -305,10 +305,10 @@ public class CardActivity extends AppCompatActivity
                         String message = String.valueOf(Message.getText());
                         String reciever = String.valueOf(Email.getText());
 
-                       // makeStringRequest(senderName,reciever);
+             /*          // makeStringRequest(senderName,reciever);
                         SendingMailDetails smd = new SendingMailDetails(CardActivity.this,senderName,reciever);
                         smd.sendemaildetails();    // save receiver details on maindatabase
-
+*/
                         Intent emailIntent = new Intent(android.content.Intent.ACTION_SEND);
                         emailIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         emailIntent.setType("plain/text");

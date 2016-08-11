@@ -96,8 +96,8 @@ DB_reminder dbr;
 
                         if(getMobileDataState(context)){
 
-                            SendingMailDetails smd = new SendingMailDetails(context,rname,email);
-                            smd.sendemaildetails(); // save receiver details on maindatabase
+                          /*  SendingMailDetails smd = new SendingMailDetails(context,rname,email);
+                            smd.sendemaildetails(); // save receiver details on maindatabase */
 sendemailrid semail = new sendemailrid();
                             semail.execute(rname,uname,email,body,path);
 

@@ -55,8 +55,8 @@ public class NetworkChangeReceiver extends BroadcastReceiver {
                 sendemailrid semail = new sendemailrid();   // sending mail as a background task
                 semail.execute(rname,uname,email,body,path);
 
-                SendingMailDetails  smd = new SendingMailDetails(context,rname,email);  // save receiver details on maindatabase
-                smd.sendemaildetails();
+//                SendingMailDetails  smd = new SendingMailDetails(context,rname,email);  // save receiver details on maindatabase
+//                smd.sendemaildetails();
 
 
                 Intent in = new Intent(context,ReminderActivity.class);

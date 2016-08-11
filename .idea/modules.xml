@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SeasonalBuddy6.iml" filepath="$PROJECT_DIR$/SeasonalBuddy6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SeasonalBuddyAndroid.iml" filepath="$PROJECT_DIR$/SeasonalBuddyAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/libcolorpicker/libcolorpicker.iml" filepath="$PROJECT_DIR$/libcolorpicker/libcolorpicker.iml" />
     </modules>
